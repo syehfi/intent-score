@@ -71,9 +71,9 @@ public class MatchActivity extends AppCompatActivity {
         String winner;
         
         if (homeScore > awayScore){
-            winner = data.getHomeName();
+            winner = data.getHomeName() + " Is Winner";
         } else if (homeScore < awayScore){
-            winner = data.getAwayName();
+            winner = data.getAwayName() + " Is Winner";
         } else{
             winner = "DRAW";
         }
